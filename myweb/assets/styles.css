@@ -1,0 +1,162 @@
+    body    /* for the body tag*/
+        {
+            background-color     : #25274D;
+        }
+    .outermost  /* for the content inside*/
+        {
+            background-color     : whitesmoke;
+            margin               : 45px;
+            padding              : 45px;
+            backface-visibility  : 25% ;
+        }
+    header   /*for header tag*/
+        {
+            font-family          : 'Pacifico', cursive;
+            background-color     : #25274D;
+            color                : white;
+        }
+    #logoimg    /*for the pillaiyar logo*/
+        {
+            border-radius        : 50%;
+            width                : 40px;
+            height               : 40px;
+            padding              : 2px;            
+            border               :2px solid #25274D;
+            margin-top           : 2px;
+        }
+  
+    .mpic   /* for  i am  courage image*/
+        {           
+            height               : 100px;
+            width                : 500px;
+            border-radius        : 50%;
+            margin-left          :25% ;
+        }
+    .heading    /*for the top most heading*/
+        {
+            text-align           : center;
+            color                : greenyellow;
+         }
+    nav         /*for the navigation menu bar*/
+         {
+             background-color    : greenyellow;
+             height              : 50px ;
+             padding             : 0px 5px 1px 5px  ;
+         }
+   /* .navig ul   for navigation bar-unordered list
+         {           
+            list-style           : none;
+            
+         }
+    .navig  li  for navigation bar-list item        not used
+        {
+            
+            
+            display              : inline ;
+        }*/
+    .nav2  /*for navigation bar-attribute tag*/ 
+        {       
+            
+            height               : 15px;     
+            float                : right;
+            margin               : 5px 5px 5px 5px;
+            text-decoration      : none;            
+            background-color     : #25274D;
+            border-radius        : 5% 5% 5% 5% /50% 50% 50% 50%;
+            color                : greenyellow;
+            padding              : 10px 15px 12px 15px;
+            
+        }
+        #icons 
+        {
+            float: left;     
+            text-decoration      : none;            
+            background-color     : greenyellow;
+            border-radius        : 5% 5% 5% 5% /50% 50% 50% 50%;
+          
+            
+        }
+   .hs     /*for the horizontal lines inside heaader*/     
+        {
+             
+            border               : whitesmoke solid;
+            width                : 50%;
+            text-align           : center;
+            
+        }
+   hr     /*for the horizontal lines all other*/     
+        {
+            
+            border               : greenyellow solid;
+            width                : 50%;
+            text-align           : center;
+                           
+        }
+         /**/ /**/
+    #about h1,#resources h1,#inspiration h1,#contact h1     /* for the heading tags*/
+         {
+            text-align           : center;
+            color                :indigo;
+            font-family          :'Dancing Script', cursive;
+            text-transform       : uppercase ;
+         }
+    #incov  /* for the resource inconvinience tag*/
+        {
+            text-align           : center;
+            color                : red;
+
+        }
+    .smi    /*for  social media icon*/
+        {
+            height               : 35px;
+            width                : 35px;  
+            opacity              : 70% ; 
+            border               : 2px solid #25274D;
+            border-radius        : 50% ;
+            
+        }
+    #contact    /*for last contact details*/
+        {
+            padding-left         : 45% ;
+        }
+    h2      /*for all h2 tags*/
+        {
+            text-align           : center ;
+            color                : indigo;
+            font-family          : 'Paprika', cursive;
+            font-size            : large ;
+        }
+   footer      /* for the footer*/
+        {
+            
+            background-color     : whitesmoke;
+        }
+    #cr      /*for the copyright*/
+         {
+            text-align           : center ;
+            color                : grey;
+         }
+    .inspire /*for inspiration page*/
+        {
+           /* display      rgb(160, 164, 209)        :inline;*/
+            list-style           :none ;
+        }
+    .inspire li         /*for list-quotes*/
+        {
+            background-color     : rgb(168, 200, 241);
+            border-radius        : 5% 5% 5% 5% /20% 20% 20% 20%;
+            padding              :30px;
+            font-family          :Georgia, 'Times New Roman', Times, serif;
+
+        }
+    #about /*for about page*/
+        {
+            font-style           : initial;
+            font-family          : 'Paprika', cursive;
+            
+        }
+    #resources /*for resource page*/
+        {
+            padding-left    :100px;
+        }
+ 
