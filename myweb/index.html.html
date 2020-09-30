@@ -52,7 +52,19 @@
         </div>
                 <hr>
         </div>
-        
+        <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "24765c13-c103-4a8e-a256-033abcea0fea", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "9b219e3b-976c-4be4-a970-57b7fc5678fa", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
        <footer>        
             <div  >     
                 <h2> For more details ,Feel free to get in touch with me </h2> 
